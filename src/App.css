@@ -7,3 +7,7 @@
 body, input, textarea, button {
   font-family: 'Montserrat', sans-serif;
 }
+
+body {
+  background: #111111;
+}
