@@ -1,0 +1,52 @@
+{
+    "skills":  [
+     {
+        "name": "HTML",
+        "icon": "html.svg"
+     },
+     {
+        "name": "CSS",
+        "icon": "css.svg"
+     },
+     {
+        "name": "ReactJs",
+        "icon": "reactjs"
+     },
+     {
+        "name": "ReactNative",
+        "icon": ""
+     },
+     {
+        "name": "Javascript",
+        "icon": ""
+     },
+     {
+        "name": "ReactJs",
+        "icon": ""
+     },
+     {
+        "name": "ReactNative",
+        "icon": ""
+     },
+     {
+        "name": "Node",
+        "icon": ""
+     },
+     {
+        "name": "Php",
+        "icon": ""
+     },
+     {
+        "name": "Laravel",
+        "icon": ""
+     },
+     {
+        "name": "SQL",
+        "icon": ""
+     },
+     {
+        "name": "Figma",
+        "icon": ""
+     }
+    ]
+}

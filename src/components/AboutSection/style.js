@@ -1,39 +1,32 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    display: flex;
-    width: 100%;
+    width: 95vw;
     min-height: 85vh;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 2rem 1rem 2rem;
+    padding: 0 1.25rem;
     flex-wrap: wrap;
-    border-bottom: 1px solid #7B7B7B;
-
-    img {
-        -webkit-box-shadow: 1.25rem 1rem 0px -1rem #FF4E79; 
-        box-shadow: 1.25rem 1.25rem 0px -0.75rem #FF4E79;
-    }
-
 `
-
 
 export const TextContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    font-size: 1.75rem;
     max-width: 500px;
-    h1{
-        font-size: 3rem;
-    }
-    
-    span {
-        color: #0029FF
-    }
+    gap: 1.25rem;
 
+    h2 {
+        font-size: 3rem;
+        color: #0029FF;
+    }
+`
+
+
+export const AboutImagesContent = styled.div`
 
 `

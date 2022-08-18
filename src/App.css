@@ -12,3 +12,19 @@ body {
   background: #111111;
   color: #fff;
 }
+
+img {
+  max-width: 440px;
+  width: 100%;
+  height: auto;
+}
+
+html {
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 720px) {
+  html {
+      font-size: 16px;
+  }
+}

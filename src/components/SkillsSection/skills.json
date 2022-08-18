@@ -1,0 +1,44 @@
+{"skills":  
+    [
+     {
+        "name": "HTML",
+        "icon": "https://svgshare.com/i/kBj.svg"
+     },
+     {
+        "name": "CSS",
+        "icon": "https://svgshare.com/i/kBj"
+     },
+     {
+        "name": "ReactJs",
+        "icon": "https://svgshare.com/i/kBj"
+     },
+     {
+        "name": "ReactNative",
+        "icon": "https://svgshare.com/i/kBj"
+     },
+     {
+        "name": "Javascript",
+        "icon": "https://svgshare.com/i/kBj"
+     },
+     {
+        "name": "Node",
+        "icon": "https://svgshare.com/i/kBj"
+     },
+     {
+        "name": "Php",
+        "icon": "https://svgshare.com/i/kBj"
+     },
+     {
+        "name": "Laravel",
+        "icon": "https://svgshare.com/i/kBj"
+     },
+     {
+        "name": "SQL",
+        "icon": "https://svgshare.com/i/kBj"
+     },
+     {
+        "name": "Figma",
+        "icon": "https://svgshare.com/i/kBj"
+     }
+    ]
+}

@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import SocialSideBar from './components/SocialSideBar';
 import HeroSection from './components/HeroSection';
+import AboutSection from './components/AboutSection';
+import SkillsSection from './components/SkillsSection';
 
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
       <SocialSideBar />
       <Sidebar />
       <Navbar/>
-      <HeroSection />
+      <HeroSection /> 
+      <AboutSection />
+      <SkillsSection />
     </Router>
   );
 }
