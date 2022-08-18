@@ -6,9 +6,9 @@ import {
   NavLink,
   VerticalLine
 } from './SocialSideBarElements';
+
 const SocialSideBar = () => {
   return (
-    <>
       <Nav>
         <NavbarContainer>
           <NavLink to="/">
@@ -23,7 +23,6 @@ const SocialSideBar = () => {
         <VerticalLine />
         </NavbarContainer>
       </Nav>
-    </>
   )
 };
 

@@ -28,17 +28,17 @@ export const NavbarContainer = styled.div`
 `
 export const VerticalLine = styled.div`
  border-left: 2px solid white;
-  height: 13.625rem;
+  height: 10.75rem;
 `
 export const NavLink = styled(LinkS)`
     color: #fff;
     font-weight: bold;
-    transition: background 300ms;
+    transition: color 300ms;
+    cursor: pointer;
     & {
         padding-bottom: 1.25rem;
     }
     &:hover{
-        background: #FF4E79;
-        color: #fff;
+        color: #FF4E79;
     }
 `

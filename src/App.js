@@ -3,6 +3,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import SocialSideBar from './components/SocialSideBar';
+import HeroSection from './components/HeroSection';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <SocialSideBar />
       <Sidebar />
       <Navbar/>
+      <HeroSection />
     </Router>
   );
 }
