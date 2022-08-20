@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.section`
     display: flex;
     width: 100%;
     min-height: 85vh;
@@ -10,7 +10,6 @@ export const Container = styled.div`
     margin: 0 auto;
     padding: 0 2rem 1rem 2rem;
     flex-wrap: wrap;
-    border-bottom: 1px solid #7B7B7B;
 
     img {
         -webkit-box-shadow: 1.25rem 1rem 0px -1rem #FF4E79; 
@@ -20,7 +19,7 @@ export const Container = styled.div`
 `
 
 
-export const TextContent = styled.div`
+export const TextContent = styled.article`
     display: flex;
     flex-direction: column;
     align-items: flex-start;

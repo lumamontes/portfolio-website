@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.figure`
     width: 10.2rem;
     height: 7.7rem;
 
