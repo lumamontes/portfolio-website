@@ -9,7 +9,7 @@ import AboutImg from '../../assets/about.svg';
 
 const AboutSection = () => {
     return (
-        <Container>
+        <Container id="about">
             <TextContent>
                 <h2>About me</h2>
                 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing </h3>

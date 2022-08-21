@@ -12,7 +12,7 @@ import data from './skills.json';
 
 const SkillsSection = () => {
     return (
-        <Container>
+        <Container id="skills">
             <h2>Skills</h2>
             <SkillsCardContainer>
                 {

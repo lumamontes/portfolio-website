@@ -24,17 +24,29 @@ const Navbar = () => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">About</NavLinks>
+              <NavLinks to="about" activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>About</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="discover">Techs</NavLinks>
+              <NavLinks to="skills" activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>Techs</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="services">Projects</NavLinks>
+              <NavLinks to="projects" activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>Projects</NavLinks>
             </NavItem>
-            <NavBtn>
+            {/* <NavBtn>
               <NavBtnLink to="/resume">Resume</NavBtnLink>
-            </NavBtn>
+            </NavBtn> */}
           </NavMenu>
         </NavbarContainer>
       </Nav>

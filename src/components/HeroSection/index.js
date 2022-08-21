@@ -8,7 +8,7 @@ import HeroImage from '../../assets/hero.svg';
 
 const HeroSection = () => {
     return (
-        <Container>
+        <Container id="hero">
             <img src={HeroImage} alt='Image of welcome page' />
             <TextContent>
                 <h2>👏Hey, welcome! </h2>

@@ -17,7 +17,7 @@ import projectImg3 from '../../assets/locai.svg'
 const ProjectsSection = () => {
     return (
         
-        <Container>
+        <Container id="projects">
             <h2>Projects</h2>
             <div>
                 <ProjectContainer>
