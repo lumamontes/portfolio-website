@@ -17,27 +17,27 @@ const SkillsSection = () => {
             <SkillsCardContainer>
                 {
                     data.skills.map((skill) =>
-                            <SkillCard key={skill.name}>
-                                <img src={skill.icon} alt={skill.name} />
-                            </SkillCard>
+                        <SkillCard key={skill.name}>
+                            <img src={skill.icon} alt={skill.name} />
+                        </SkillCard>
                     )
                 }
-            </SkillsCardContainer> 
+            </SkillsCardContainer>
             <LanguageLevelsContainer>
-                    <Wrapper>
-                        <p>Portuguese</p>
-                        <div>
-                            <div></div>
-                            Native    
-                        </div> 
-                    </Wrapper>
-                    <Wrapper lg_level_bg="#B14EFF" lg_level_wd="80%">
-                        <p>English</p>
-                        <div>
-                            <div></div>
-                            Fluent    
-                        </div>
-                    </Wrapper>
+                <Wrapper>
+                    <p>Portuguese</p>
+                    <div>
+                        <div></div>
+                        Native
+                    </div>
+                </Wrapper>
+                <Wrapper lg_level_bg="#B14EFF" lg_level_wd="80%">
+                    <p>English</p>
+                    <div>
+                        <div></div>
+                        Fluent
+                    </div>
+                </Wrapper>
 
             </LanguageLevelsContainer>
         </Container>

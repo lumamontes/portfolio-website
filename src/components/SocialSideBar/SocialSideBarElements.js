@@ -1,7 +1,4 @@
 import styled from 'styled-components';
-import { Link as LinkR } from 'react-router-dom'
-import { Link as LinkS } from 'react-scroll'
-
 export const Nav = styled.nav`
     width: 5vw;
     height: 100vh;
@@ -14,10 +11,7 @@ export const Nav = styled.nav`
     @media screen and (max-width: 768px){
         display: none;
     }
-
-
 `
-
 export const NavbarContainer = styled.div`
     height: inherit;
     display: flex;
@@ -30,7 +24,7 @@ export const VerticalLine = styled.div`
  border-left: 2px solid white;
   height: 10.75rem;
 `
-export const NavLink = styled(LinkS)`
+export const NavLink = styled.a`
     color: #fff;
     font-weight: bold;
     transition: color 300ms;

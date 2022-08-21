@@ -1,12 +1,12 @@
 import React from 'react';
 import { FaBars, FaCode } from 'react-icons/fa';
-import { 
-  Nav, 
-  NavbarContainer, 
-  NavLogo, 
-  MobileIcon, 
-  NavMenu, 
-  NavItem, 
+import {
+  Nav,
+  NavbarContainer,
+  NavLogo,
+  MobileIcon,
+  NavMenu,
+  NavItem,
   NavLinks,
   NavBtn,
   NavBtnLink
@@ -32,9 +32,9 @@ const Navbar = () => {
             <NavItem>
               <NavLinks to="services">Projects</NavLinks>
             </NavItem>
-          <NavBtn>
-            <NavBtnLink to="/resume">Resume</NavBtnLink>
-          </NavBtn>
+            <NavBtn>
+              <NavBtnLink to="/resume">Resume</NavBtnLink>
+            </NavBtn>
           </NavMenu>
         </NavbarContainer>
       </Nav>

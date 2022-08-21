@@ -6,6 +6,7 @@ import SocialSideBar from './components/SocialSideBar';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import SkillsSection from './components/SkillsSection';
+import ProjectsSection from './components/ProjectsSection';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <HeroSection /> 
       <AboutSection />
       <SkillsSection />
+      <ProjectsSection />
     </Router>
   );
 }

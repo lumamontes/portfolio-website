@@ -18,7 +18,7 @@ export const Container = styled.section`
 
 export const SkillsCardContainer = styled.article`
     display: flex;
-    gap: 4rem;
+    gap: 4.25rem;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -26,26 +26,21 @@ export const SkillsCardContainer = styled.article`
     figcaption {
         text-align: center;
     }
-   
 `
-
-
 export const LanguageLevelsContainer = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.25rem;
 `
-
 export const Wrapper = styled.div`
     p {
         font-weight: bold;
         font-size: 1.1rem;
         padding-bottom: 0.75rem;
-
     }
     div {
         display: flex;
-        gap: 1rem;
+        gap: 1.25rem;
         align-items: center;
         justify-content: space-between;
         div {

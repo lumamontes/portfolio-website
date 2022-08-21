@@ -17,8 +17,6 @@ export const Container = styled.section`
     }
 
 `
-
-
 export const TextContent = styled.article`
     display: flex;
     flex-direction: column;
@@ -33,6 +31,5 @@ export const TextContent = styled.article`
     span {
         color: #0029FF
     }
-
 
 `

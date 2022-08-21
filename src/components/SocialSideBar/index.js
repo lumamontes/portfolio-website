@@ -1,28 +1,28 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import { 
-  Nav, 
-  NavbarContainer, 
+import {
+  Nav,
+  NavbarContainer,
   NavLink,
   VerticalLine
 } from './SocialSideBarElements';
 
 const SocialSideBar = () => {
   return (
-      <Nav>
-        <NavbarContainer>
-          <NavLink to="/">
-            <FaGithub/>
-          </NavLink>
-          <NavLink to="/">
-            <FaLinkedin/>
-          </NavLink>
-          <NavLink to="/">
-            <FaTwitter/>
-          </NavLink>
+    <Nav>
+      <NavbarContainer>
+        <NavLink href="https://github.com/lumamontes">
+          <FaGithub />
+        </NavLink>
+        <NavLink href='https://www.linkedin.com/in/lumamontes/'>
+          <FaLinkedin />
+        </NavLink>
+        <NavLink href="https://twitter.com/kingsimbi">
+          <FaTwitter />
+        </NavLink>
         <VerticalLine />
-        </NavbarContainer>
-      </Nav>
+      </NavbarContainer>
+    </Nav>
   )
 };
 
