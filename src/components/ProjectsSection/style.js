@@ -14,27 +14,37 @@ export const Container = styled.section`
         align-self: center;
         margin: 5rem 0;
     }
-
     > div {
         display: flex;
         flex-wrap: wrap;
         gap: 2.75rem;
+    
+        @media only screen and (max-width: 1091px) {
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+         }
     }
 `
 export const ProjectContainer = styled.div`
         display: flex;
         align-items: center;
+
 `
 export const ProjectCard = styled.article`
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         background: #1E1E1E;
-        width: 270px;
-        height: 307px;
+        width: 16.875rem;
+        height: 19.188rem;
         border-radius: 8px;
-        border-top: 5px solid #FF4E79;
+        border-top: 5px solid ${props => props.bt_color || '#FF4E79'};
     
+    @media only screen and (max-width: 389px) {
+        width: 14.800rem;
+        height: 17.188rem;
+    }
     img {
         width: 100%;
         height: 80%;
@@ -44,7 +54,6 @@ export const ProjectCard = styled.article`
     }
    
 `
-
 export const NavWrapper = styled.div`
     display: flex;
     height: 20%;
@@ -70,8 +79,8 @@ export const ProjectContent = styled.div`
         align-self: center;
     }
     div {
-        width: 268px;
-        height: 88px;
+        width: 16.75rem;
+        height: 5.5rem;
         margin-left: -15px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25px); 
         border: 1px solid black;

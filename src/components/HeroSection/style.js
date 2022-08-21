@@ -16,6 +16,12 @@ export const Container = styled.section`
         box-shadow: 1.25rem 1.25rem 0px -0.75rem #FF4E79;
     }
 
+    @media only screen and (max-width: 958px) {
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
 `
 export const TextContent = styled.article`
     display: flex;
@@ -30,6 +36,16 @@ export const TextContent = styled.article`
     
     span {
         color: #0029FF
+    }
+    
+    @media only screen and (max-width: 958px) {
+        justify-content: center;
+        align-items: center;
+        font-size: 1.24rem;
+        h1{
+            font-size: 2.5rem;
+        }
+    
     }
 
 `

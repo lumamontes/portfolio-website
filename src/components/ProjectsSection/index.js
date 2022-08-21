@@ -38,7 +38,7 @@ const ProjectsSection = () => {
                 </ProjectContainer>
 
                 <ProjectContainer>
-                    <ProjectCard>
+                    <ProjectCard bt_color="#FFED4E">
                             <img src={projectImg2} />
                         <NavWrapper>
                             <NavLink href="https://github.com/lumamontes/zendesk" target='_blank'>
@@ -58,7 +58,7 @@ const ProjectsSection = () => {
                 </ProjectContainer>
 
                 <ProjectContainer>
-                    <ProjectCard>
+                    <ProjectCard bt_color="#B14EFF">
                             <img src={projectImg3} />
                         <NavWrapper>
                             <NavLink href="https://github.com/lumamontes/locai-frontend" target='_blank'>

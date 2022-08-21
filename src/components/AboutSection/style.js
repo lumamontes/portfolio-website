@@ -10,6 +10,12 @@ export const Container = styled.div`
     margin: 0 auto;
     padding: 0 1.25rem;
     flex-wrap: wrap;
+
+    @media only screen and (max-width: 958px) {
+        justify-content: center;
+        align-items: center;
+        gap: 1.25rem;
+    }
 `
 
 export const TextContent = styled.div`
@@ -23,6 +29,11 @@ export const TextContent = styled.div`
     h2 {
         font-size: 3rem;
         color: #0029FF;
+    }
+
+
+    @media only screen and (max-width: 958px) {
+        align-items: center;
     }
 `
 
