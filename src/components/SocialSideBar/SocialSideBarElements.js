@@ -32,7 +32,8 @@ export const NavLink = styled.a`
     & {
         padding-bottom: 1.25rem;
     }
+    transition: 200ms;
     &:hover{
-        color: #FF4E79;
+        opacity: 70%;
     }
 `

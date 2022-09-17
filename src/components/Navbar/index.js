@@ -28,21 +28,21 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500}>About</NavLinks>
+                duration={500}>Sobre</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="skills" activeClass="active"
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500}>Techs</NavLinks>
+                duration={500}>Skills</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="projects" activeClass="active"
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500}>Projects</NavLinks>
+                duration={500}>Projetos</NavLinks>
             </NavItem>
             {/* <NavBtn>
               <NavBtnLink to="/resume">Resume</NavBtnLink>

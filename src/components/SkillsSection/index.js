@@ -18,24 +18,24 @@ const SkillsSection = () => {
                 {
                     data.skills.map((skill) =>
                         <SkillCard key={skill.name}>
-                            <img src={skill.icon} alt={skill.name} />
+                            <img src={skill.icon} alt={skill.name} loading="lazy"/>
                         </SkillCard>
                     )
                 }
             </SkillsCardContainer>
             <LanguageLevelsContainer>
                 <Wrapper>
-                    <p>Portuguese</p>
+                    <p>Português</p>
                     <div>
                         <div></div>
-                        Native
+                        Nativa
                     </div>
                 </Wrapper>
                 <Wrapper lg_level_bg="#B14EFF" lg_level_wd="80%">
-                    <p>English</p>
+                    <p>Inglês</p>
                     <div>
                         <div></div>
-                        Fluent
+                        Fluente
                     </div>
                 </Wrapper>
 

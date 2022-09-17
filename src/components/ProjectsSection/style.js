@@ -68,7 +68,7 @@ export const NavLink = styled.a`
     font-weight: bold;
     transition: color 300ms;
     &:hover{
-        color: #FF4E79;
+        opacity: 80%;
     }
 `
 export const ProjectContent = styled.div`

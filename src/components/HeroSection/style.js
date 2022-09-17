@@ -28,12 +28,13 @@ export const TextContent = styled.article`
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    font-size: 1.75rem;
+    font-size: 2rem;
     max-width: 500px;
     h1{
+        padding-top: 1.75rem;
         font-size: 3rem;
     }
-    
+
     span {
         color: #0029FF
     }

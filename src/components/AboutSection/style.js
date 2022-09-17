@@ -31,6 +31,11 @@ export const TextContent = styled.div`
         color: #0029FF;
     }
 
+    p {
+        font-size: 1.1rem;
+        line-height: 26px;
+        text-align: justify;
+    }
 
     @media only screen and (max-width: 958px) {
         align-items: center;

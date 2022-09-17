@@ -12,7 +12,7 @@ import {
 const Footer = () => {
     return (
         <Container>
-            <p>Made with <span>love</span> by Luma :)</p>
+            <p>Feito com <span>amor</span> por Luma :)</p>
             <p>lumagoesmontes@gmail.com</p>
             <SideBarContent>
                 <NavLink href="https://github.com/lumamontes" target='_blank'>

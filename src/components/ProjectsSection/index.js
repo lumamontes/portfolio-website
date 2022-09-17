@@ -7,7 +7,7 @@ import {
     ProjectContent,
     NavLink
 } from './style';
-import { FaGithub, FaExternalLinkSquareAlt} from 'react-icons/fa';
+import { FaGithub, FaExternalLinkSquareAlt } from 'react-icons/fa';
 
 import projectImg1 from '../../assets/querojob.svg'
 import projectImg2 from '../../assets/zendesk.svg'
@@ -16,13 +16,13 @@ import projectImg3 from '../../assets/locai.svg'
 
 const ProjectsSection = () => {
     return (
-        
+
         <Container id="projects">
-            <h2>Projects</h2>
+            <h2>Projetos</h2>
             <div>
                 <ProjectContainer>
                     <ProjectCard>
-                            <img src={projectImg1} />
+                        <img src={projectImg1} loading="lazy" />
                         <NavWrapper>
                             <NavLink href="https://github.com/lumamontes/QueroJob" target='_blank'>
                                 <FaGithub />
@@ -32,14 +32,14 @@ const ProjectsSection = () => {
                     <ProjectContent>
                         <h3>Quero Job</h3>
                         <div>
-                            App to help with professional education
+                            App para incentivar a educação profissional
                         </div>
                     </ProjectContent>
                 </ProjectContainer>
 
                 <ProjectContainer>
                     <ProjectCard bt_color="#FFED4E">
-                            <img src={projectImg2} />
+                        <img src={projectImg2} loading="lazy"/>
                         <NavWrapper>
                             <NavLink href="https://github.com/lumamontes/zendesk" target='_blank'>
                                 <FaGithub />
@@ -52,14 +52,14 @@ const ProjectsSection = () => {
                     <ProjectContent>
                         <h3>ZendeskIndicators</h3>
                         <div>
-                            Indicators for support agent metrics that collect data from Zendesk API.
+                            Indicadores para métricas de Suporte, com dados da Zendesk API.
                         </div>
                     </ProjectContent>
                 </ProjectContainer>
 
                 <ProjectContainer>
                     <ProjectCard bt_color="#B14EFF">
-                            <img src={projectImg3} />
+                        <img src={projectImg3} loading="lazy"/>
                         <NavWrapper>
                             <NavLink href="https://github.com/lumamontes/locai-frontend" target='_blank'>
                                 <FaGithub />
@@ -72,13 +72,13 @@ const ProjectsSection = () => {
                     <ProjectContent>
                         <h3>Locaí</h3>
                         <div>
-                           A Website for adverting and searching properties to rent.
+                            Website para anúncio e aluguel de imóveis.
                         </div>
                     </ProjectContent>
                 </ProjectContainer>
             </div>
 
-            
+
         </Container>
     )
 };

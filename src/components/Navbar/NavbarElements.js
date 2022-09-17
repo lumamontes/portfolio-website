@@ -75,6 +75,12 @@ export const NavLinks = styled(LinkS)`
     font-weight: bold;
     cursor: pointer;
 
+    transition: color 300ms;
+
+    &:hover{
+        opacity: 80%;
+    }
+
     &active{
         border-bottom: 3px solid #FF4E79;
     }
