@@ -9,7 +9,7 @@ import HeroImage from '../../assets/hero.svg';
 const HeroSection = () => {
     return (
         <Container id="hero">
-            <img src={HeroImage} alt='Image of welcome page' loading="lazy" />
+            <img src={HeroImage} alt='Website owner Luma Montes' />
             <TextContent>
                 <h3>👏Hey, bem vindo! </h3>
                 <h1><span>Luma Montes</span> </h1>

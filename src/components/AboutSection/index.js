@@ -22,8 +22,8 @@ const AboutSection = () => {
                 </p>
             </TextContent>
             <AboutImagesContent>
-                <img src={AboutImg} alt='Image of welcome page' loading="lazy"/>
-                <p>Créditos: <a href='https://www.instagram.com/luana.g.m/' target="_blank">@luana.gm</a></p>
+                <img src={AboutImg} alt='Drawings of me' loading="lazy"/>
+                <p>Créditos: <a href='https://www.instagram.com/luana.g.m/' target="_blank" rel="noreferrer">@luana.gm</a></p>
             </AboutImagesContent>
         </Container>
     )

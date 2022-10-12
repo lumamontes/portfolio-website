@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBars, FaCode } from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
 import {
   Nav,
   NavbarContainer,
@@ -7,9 +7,7 @@ import {
   MobileIcon,
   NavMenu,
   NavItem,
-  NavLinks,
-  NavBtn,
-  NavBtnLink
+  NavLinks
 } from './NavbarElements';
 const Navbar = () => {
   return (
@@ -17,7 +15,6 @@ const Navbar = () => {
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">
-            {/* <FaCode/> */}
           </NavLogo>
           <MobileIcon>
             <FaBars />
@@ -44,9 +41,6 @@ const Navbar = () => {
                 offset={-70}
                 duration={500}>Projetos</NavLinks>
             </NavItem>
-            {/* <NavBtn>
-              <NavBtnLink to="/resume">Resume</NavBtnLink>
-            </NavBtn> */}
           </NavMenu>
         </NavbarContainer>
       </Nav>

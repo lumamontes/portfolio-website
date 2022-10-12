@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Link as LinkR } from 'react-router-dom'
 
 export const Container = styled.section`
     width: 95vw;
@@ -7,7 +6,7 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 2rem auto;
     h2 {
         font-size: 3rem;
         color: #0029FF;
@@ -59,7 +58,7 @@ export const NavWrapper = styled.div`
     height: 20%;
     justify-content: flex-end;
     align-items: center;
-    padding: 0 1.25rem;
+    padding: 0 2rem;
     gap: 1.25rem;
 `
 export const NavLink = styled.a`

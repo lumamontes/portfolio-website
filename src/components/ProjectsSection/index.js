@@ -22,7 +22,7 @@ const ProjectsSection = () => {
             <div>
                 <ProjectContainer>
                     <ProjectCard>
-                        <img src={projectImg1} loading="lazy" />
+                        <img src={projectImg1} loading="lazy" alt='Project Quero Job'/>
                         <NavWrapper>
                             <NavLink href="https://github.com/lumamontes/QueroJob" target='_blank'>
                                 <FaGithub />
@@ -39,9 +39,9 @@ const ProjectsSection = () => {
 
                 <ProjectContainer>
                     <ProjectCard bt_color="#FFED4E">
-                        <img src={projectImg2} loading="lazy"/>
+                        <img src={projectImg2} alt='Information about ZendeskIndicators'/>
                         <NavWrapper>
-                            <NavLink href="https://github.com/lumamontes/zendesk" target='_blank'>
+                            <NavLink href="https://github.com/lumamontes/zendesk" target='_blank' >
                                 <FaGithub />
                             </NavLink>
                             <NavLink to="/" target='_blank'>
@@ -59,7 +59,7 @@ const ProjectsSection = () => {
 
                 <ProjectContainer>
                     <ProjectCard bt_color="#B14EFF">
-                        <img src={projectImg3} loading="lazy"/>
+                        <img src={projectImg3} alt='Information about Locaí'/>
                         <NavWrapper>
                             <NavLink href="https://github.com/lumamontes/locai-frontend" target='_blank'>
                                 <FaGithub />
