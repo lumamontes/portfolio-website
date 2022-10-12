@@ -38,7 +38,7 @@ export const TextContent = styled.article`
     }
 
     span {
-        color: #0029FF
+        color: #4b59f7
     }
     
     @media only screen and (max-width: 958px) {

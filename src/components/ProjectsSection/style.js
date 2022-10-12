@@ -9,7 +9,7 @@ export const Container = styled.section`
     margin: 2rem auto;
     h2 {
         font-size: 3rem;
-        color: #0029FF;
+        color: #4b59f7;
         align-self: center;
         margin: 5rem 0;
     }

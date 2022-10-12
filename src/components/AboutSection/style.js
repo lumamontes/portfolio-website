@@ -28,7 +28,7 @@ export const TextContent = styled.div`
 
     h2 {
         font-size: 3rem;
-        color: #0029FF;
+        color: #4b59f7;
     }
 
     p {

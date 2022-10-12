@@ -11,7 +11,7 @@ export const Container = styled.section`
     justify-content: space-around;
     h2 {
         font-size: 3rem;
-        color: #0029FF;
+        color: #4b59f7;
         align-self: center;
     }
 `
