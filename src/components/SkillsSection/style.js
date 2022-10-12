@@ -6,7 +6,7 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 2rem auto;
     gap: 5rem;
     justify-content: space-around;
     h2 {

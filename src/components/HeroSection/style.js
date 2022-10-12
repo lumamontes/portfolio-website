@@ -8,10 +8,12 @@ export const Container = styled.section`
     justify-content: space-between;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 2rem 1rem 2rem;
+    padding: 0 2rem 2rem 2rem;
     flex-wrap: wrap;
 
     img {
+        width: 22.5rem;
+        height: 25rem;
         -webkit-box-shadow: 1.25rem 1rem 0px -1rem #FF4E79; 
         box-shadow: 1.25rem 1.25rem 0px -0.75rem #FF4E79;
     }
