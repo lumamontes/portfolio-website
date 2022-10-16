@@ -1,0 +1,28 @@
+{
+    "nav": {
+        "about": "Sobre",
+        "project": "Projetos"
+    },
+    "hero": {
+        "welcome": "Hey, bem vindo!",
+        "field": "Desenvolvedora Junior"
+    },
+    "about": {
+        "title": "Sobre mim",
+        "content": "Tenho 20 anos e estou concluíndo a formação de Tecnologia em Sistemas para Internet. Atualmente trabalhando como Desenvolvedora Junior na Proesc, com experiência em atendimento ao cliente(chat/ticket), metódologias ágeis, manutenção em código, resolução de problemas e criação de novas funcionalidades :)",
+        "content2": "No mercado de trabalho tenho prática com HTML, CSS, PHP, Laravel, Postgresql e Javascript. Procuro estudar frameworks como ReactJs, React Native, Nextjs e amo participar de eventos e comunidades voltados para open-source como o Hacktoberfest. No meu tempo livre gosto de assistir séries, esportes, jogar videogames e ler!"
+    },
+    "skills": {
+        "pt": "Português",
+        "en": "Inglês",
+        "level": "Nativa",
+        "level1": "Fluente"
+    },
+    "projects": {
+        "title": "Projetos",
+        "project1": "App para incentivar a educação profissional",
+        "project2": "Indicadores para métricas de Suporte, com dados da Zendesk API.",
+        "project3": "Website para anúncio e aluguel de imóveis."
+    },
+    "footer":"Feito com ❤️ por Luma"
+}

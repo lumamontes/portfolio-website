@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { useTranslation } from 'react-i18next';
 
 import {
     Container,
@@ -10,10 +11,11 @@ import {
 
 
 const Footer = () => {
+    const { t } = useTranslation();
+
     return (
         <Container>
-            <p>Feito com <span>amor</span> por Luma :)</p>
-            <p>lumagoesmontes@gmail.com</p>
+            <p>{t("footer")} :)</p>
             <SideBarContent>
                 <NavLink href="https://github.com/lumamontes" target='_blank'>
                     <FaGithub />

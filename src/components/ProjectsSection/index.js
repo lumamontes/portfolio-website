@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import {
     Container,
     ProjectCard,
@@ -15,14 +16,16 @@ import projectImg3 from '../../assets/locai.svg'
 
 
 const ProjectsSection = () => {
+    const { t } = useTranslation();
+
     return (
 
         <Container id="projects">
-            <h2>Projetos</h2>
+            <h2>{t("projects.title")}</h2>
             <div>
                 <ProjectContainer>
                     <ProjectCard>
-                        <img src={projectImg1} loading="lazy" alt='Project Quero Job'/>
+                        <img src={projectImg1} loading="lazy" alt='Project Quero Job' />
                         <NavWrapper>
                             <NavLink href="https://github.com/lumamontes/QueroJob" target='_blank'>
                                 <FaGithub />
@@ -32,14 +35,14 @@ const ProjectsSection = () => {
                     <ProjectContent>
                         <h3>Quero Job</h3>
                         <div>
-                            App para incentivar a educação profissional
+                            {t("projects.project1")}
                         </div>
                     </ProjectContent>
                 </ProjectContainer>
 
                 <ProjectContainer>
                     <ProjectCard bt_color="#FFED4E">
-                        <img src={projectImg2} alt='Information about ZendeskIndicators'/>
+                        <img src={projectImg2} alt='Information about ZendeskIndicators' />
                         <NavWrapper>
                             <NavLink href="https://github.com/lumamontes/zendesk" target='_blank' >
                                 <FaGithub />
@@ -52,14 +55,14 @@ const ProjectsSection = () => {
                     <ProjectContent>
                         <h3>ZendeskIndicators</h3>
                         <div>
-                            Indicadores para métricas de Suporte, com dados da Zendesk API.
+                            {t("projects.project2")}
                         </div>
                     </ProjectContent>
                 </ProjectContainer>
 
                 <ProjectContainer>
                     <ProjectCard bt_color="#B14EFF">
-                        <img src={projectImg3} alt='Information about Locaí'/>
+                        <img src={projectImg3} alt='Information about Locaí' />
                         <NavWrapper>
                             <NavLink href="https://github.com/lumamontes/locai-frontend" target='_blank'>
                                 <FaGithub />
@@ -72,7 +75,7 @@ const ProjectsSection = () => {
                     <ProjectContent>
                         <h3>Locaí</h3>
                         <div>
-                            Website para anúncio e aluguel de imóveis.
+                            {t("projects.project3")}
                         </div>
                     </ProjectContent>
                 </ProjectContainer>

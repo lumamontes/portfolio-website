@@ -1,0 +1,29 @@
+{
+    "nav": {
+        "about": "About",
+        "project": "Projects"
+    },
+    "hero": {
+        "welcome": "Hey, welcome!",
+        "field": "Junior Developer"
+    },
+    "about": {
+        "title": "About me",
+        "content": "I'm 20 years old and I'm completing my degree in Technology in Internet Systems. Currently working as a Junior Developer at Proesc, with experience in customer service (chat/ticket), agile methodologies, code maintenance, problem solving and new features :)",
+        "content2": "I have experience with HTML, CSS, PHP, Laravel, Postgresql and Javascript. I try to study frameworks like ReactJs, React Native, Nextjs and I love participating in open-source events and communities like Hacktoberfest. In my free time I like to watch TV Shows, sports, play video games and read!"
+    },
+    "skills": {
+        "pt": "Portuguese",
+        "en": "English",
+        "level": "Native",
+        "level1": "Fluent"
+    },
+    "projects": {
+        "title": "Projects",
+        "project1": "App to encourage professional education",
+        "project2": "Indicators for Support Metrics, powered by Zendesk API.",
+        "project3": "Website for listing and renting real estate"
+    },
+    "footer":"Made with ❤️ by Luma"
+
+}

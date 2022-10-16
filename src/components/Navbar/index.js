@@ -1,11 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import i18n from 'i18next';
+import { useTranslation } from "react-i18next";
+import Select from 'react-select'
+
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import {
   Nav,
   NavbarContainer,
   NavLogo,
-  NavIcon,
   MobileIcon,
   NavMenu,
   NavItem,
@@ -18,6 +21,14 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  const options = [
+    { value: 'pt', label: '🇧🇷'},
+    { value: 'en', label: '🇺🇸' }
+  ]
+  function handleChange(e){
+    i18n.changeLanguage(e.value)
+  }
+  const { t } = useTranslation();
   return (
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
@@ -34,7 +45,7 @@ function Navbar() {
                   smooth={true}
                   offset={-70}
                   duration={500}>
-                  Sobre
+                    {t("nav.about")}
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -50,9 +61,24 @@ function Navbar() {
                   smooth={true}
                   offset={-70}
                   duration={500}>
-                  Projetos
+                  {t("nav.project")}
                 </NavLinks>
               </NavItem>
+              <Select
+                defaultValue={options[0]} 
+                isSearchable={false}
+                autoFocus={true} 
+                options={options} 
+                theme={(theme) => ({
+                  ...theme,
+                  colors: {
+                    ...theme.colors,
+                    neutral0: '#1B1B1B',
+                    neutral10: '#1B1B1B',
+                  },
+                })}
+                onChange={(e) => handleChange(e)}
+              />
             </NavMenu>
           </NavbarContainer>
         </Nav>

@@ -8,7 +8,7 @@ export const Container = styled.section`
     justify-content: space-between;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 2rem 0 2rem;
     flex-wrap: wrap;
 
     img {

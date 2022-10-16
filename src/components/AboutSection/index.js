@@ -6,24 +6,27 @@ import {
 } from './style';
 
 import AboutImg from '../../assets/about.svg';
+import { useTranslation } from 'react-i18next';
 
 let idade = new Date().getFullYear() - 2002;
 
 const AboutSection = () => {
+    const { t } = useTranslation();
+
     return (
         <Container id="about">
             <TextContent>
-                <h2>Sobre mim</h2>
+                <h2>{t("about.title")}</h2>
                 <p>
-                    Tenho {idade} anos e estou concluíndo a formação de Tecnologia em Sistemas para Internet. Atualmente trabalhando como Desenvolvedora Junior na Proesc, com experiência em atendimento ao cliente(chat/ticket), metódologias ágeis, manutenção em código, resolução de problemas e criação de novas funcionalidades :) </p>
+                    {t("about.content")}
+                </p>
                 <p>
-                    No mercado de trabalho tenho prática com HTML, CSS, PHP, Laravel, Postgresql e Javascript. Procuro estudar frameworks como ReactJs, React Native, Nextjs e amo participar de eventos e comunidades voltados para open-source como o Hacktoberfest.
-                    No meu tempo livre gosto de assistir séries, esportes, jogar videogames e ler!
+                    {t("about.content2")}
                 </p>
             </TextContent>
             <AboutImagesContent>
-                <img src={AboutImg} alt='Drawings of me' loading="lazy"/>
-                <p>Créditos: <a href='https://www.instagram.com/luana.g.m/' target="_blank" rel="noreferrer">@luana.gm</a></p>
+                <img src={AboutImg} alt='Drawings of me' loading="lazy" />
+                <p><small>art by<a href='https://www.instagram.com/luana.g.m/' target="_blank" rel="noreferrer">@luana.gm</a></small></p>
             </AboutImagesContent>
         </Container>
     )

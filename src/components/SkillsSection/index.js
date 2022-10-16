@@ -7,10 +7,11 @@ import {
 } from './style';
 
 import SkillCard from '../SkillCard';
-
+import { useTranslation } from 'react-i18next';
 import data from './skills.json';
 
 const SkillsSection = () => {
+    const { t } = useTranslation();
     return (
         <Container id="skills">
             <h2>Skills</h2>
@@ -18,24 +19,24 @@ const SkillsSection = () => {
                 {
                     data.skills.map((skill) =>
                         <SkillCard key={skill.name}>
-                            <img src={skill.icon} alt={skill.name} loading="lazy"/>
+                            <img src={skill.icon} alt={skill.name} loading="lazy" />
                         </SkillCard>
                     )
                 }
             </SkillsCardContainer>
             <LanguageLevelsContainer>
                 <Wrapper>
-                    <p>Português</p>
+                    <p>{t("skills.pt")}</p>
                     <div>
                         <div></div>
-                        Nativa
+                        {t("skills.level")}
                     </div>
                 </Wrapper>
                 <Wrapper lg_level_bg="#B14EFF" lg_level_wd="80%">
-                    <p>Inglês</p>
+                    <p>{t("skills.en")}</p>
                     <div>
                         <div></div>
-                        Fluente
+                        {t("skills.level1")}
                     </div>
                 </Wrapper>
 
